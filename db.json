@@ -1,0 +1,203 @@
+{
+  "dosen": [
+    {
+      "id": "1",
+      "nidn": "12345678",
+      "nama": "Dr. Ahmad Fauzi"
+    },
+    {
+      "id": "2",
+      "nidn": "87654321",
+      "nama": "Dr. Siti Rahma"
+    },
+    {
+      "id": "S_QHOF0",
+      "nidn": "343438",
+      "nama": "Prof Agung Riyadi"
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nama": "Budi Santoso",
+      "nim": "20211001",
+      "max_sks": 24
+    },
+    {
+      "id": "2",
+      "nama": "Siti Aminah",
+      "nim": "20211002",
+      "max_sks": 24
+    },
+    {
+      "id": "6hGHlYr",
+      "nim": "20236006",
+      "nama": "Didit Ninit",
+      "max_sks": 20
+    },
+    {
+      "id": "9d8xfXc",
+      "nim": "20236087",
+      "nama": "Lala Minis",
+      "max_sks": 10
+    },
+    {
+      "id": "IiD7mPF",
+      "nim": "20236008",
+      "nama": "Cynthia Ard",
+      "max_sks": 14
+    },
+    {
+      "id": "sI6qPtc",
+      "nim": "20236011",
+      "nama": "Bening Kirana",
+      "max_sks": 23
+    },
+    {
+      "nim": "202110023",
+      "nama": "nana",
+      "max_sks": 24,
+      "id": "zVV9lxk"
+    }
+  ],
+  "matakuliah": [
+    {
+      "id": "1",
+      "kode": "IF101",
+      "nama": "Pemrograman Web",
+      "sks": 3
+    },
+    {
+      "id": "2",
+      "kode": "IF102",
+      "nama": "Basis Data",
+      "sks": 3
+    },
+    {
+      "id": "-AARE-5",
+      "kode": "IF103",
+      "nama": "Metopen",
+      "sks": 2
+    },
+    {
+      "kode": "99j",
+      "nama": "Citra Aulia Fadila",
+      "sks": 3,
+      "id": "xLsMUgK"
+    }
+  ],
+  "kelas": [
+    {
+      "id": "1",
+      "kode": "IF-A",
+      "nama": "Kelas A",
+      "semester": 4,
+      "dosenId": "1",
+      "matakuliahId": "1"
+    },
+    {
+      "id": "2",
+      "kode": "IF-B",
+      "nama": "Kelas B",
+      "semester": 4,
+      "dosenId": "2",
+      "matakuliahId": "2"
+    },
+    {
+      "id": "SSmM4B5",
+      "kode": "IF-C",
+      "nama": "A11.40011",
+      "semester": 2,
+      "dosenId": "S_QHOF0",
+      "matakuliahId": "-AARE-5"
+    },
+    {
+      "kode": "A11.88",
+      "nama": "A11.9899",
+      "semester": "3",
+      "dosenId": "2",
+      "matakuliahId": "1",
+      "id": "ybGHSoe"
+    }
+  ],
+  "rencana_studi": [
+    {
+      "id": "1",
+      "mahasiswaId": "1",
+      "kelasId": "1",
+      "mataKuliahIds": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "mahasiswaId": "2",
+      "kelasId": "2",
+      "mataKuliahIds": [
+        "1"
+      ]
+    },
+    {
+      "mahasiswaId": "9d8xfXc",
+      "kelasId": "2",
+      "mataKuliahIds": [
+        "2",
+        "-AARE-5",
+        "xLsMUgK"
+      ],
+      "id": "c9050y5"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Administrator",
+      "email": "admin@mail.com",
+      "password": "admin123",
+      "role": "admin",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "dosen.page",
+        "matakuliah.page",
+        "kelas.page",
+        "rencanastudi.page",
+        "user.page"
+      ]
+    },
+    {
+      "id": "LINbShjkvJ0",
+      "name": "Citra Fadila",
+      "email": "citra@mail.com",
+      "password": "citra123",
+      "role": "dosen",
+      "permission": [
+        "dashboard.page",
+        "matakuliah.page"
+      ]
+    },
+    {
+      "id": "KjyX4qOYavE",
+      "name": "Aulia Fadila",
+      "email": "aulia@mail.com",
+      "password": "aulia123",
+      "role": "dosen",
+      "permission": [
+        "dashboard.page",
+        "matakuliah.page"
+      ]
+    },
+    {
+      "id": "Cfhbjux5ywQ",
+      "name": "Fadila AC",
+      "email": "fadila@mail.com",
+      "password": "fadila123",
+      "role": "mahasiswa",
+      "permission": [
+        "dashboard.page"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
