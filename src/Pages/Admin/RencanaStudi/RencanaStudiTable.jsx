@@ -1,4 +1,4 @@
-import Button from "@/pages/Admin/Components/Button";
+import Button from "@/Pages/Admin/Components/Button";
 
 const RencanaStudiTable = ({
   data = [],

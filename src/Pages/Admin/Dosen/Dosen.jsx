@@ -14,12 +14,12 @@ import {
   useDeleteDosen,
 } from "@/Utils/Hooks/useDosen";
 
-import Card from "@/pages/Admin/Components/Card";
-import Heading from "@/pages/Admin/Components/Heading";
-import Button from "@/pages/Admin/Components/Button";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
+import Button from "@/Pages/Admin/Components/Button";
 
-import DosenTable from "@/pages/Admin/Dosen/DosenTable";
-import DosenModal from "@/pages/Admin/Dosen/DosenModal";
+import DosenTable from "@/Pages/Admin/Dosen/DosenTable";
+import DosenModal from "@/Pages/Admin/Dosen/DosenModal";
 
 const Dosen = () => {
   const [selectedDosen, setSelectedDosen] = useState(null);

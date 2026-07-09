@@ -15,8 +15,8 @@ import {
   Line,
 } from "recharts";
 
-import Card from "@/pages/Admin/Components/Card";
-import Heading from "@/pages/Admin/Components/Heading";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
 import { useMahasiswa } from "@/Utils/Hooks/useMahasiswa";
 import { useDosen } from "@/Utils/Hooks/useDosen";
 import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";

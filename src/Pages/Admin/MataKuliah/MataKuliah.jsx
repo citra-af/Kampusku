@@ -14,12 +14,12 @@ import {
   useDeleteMataKuliah,
 } from "@/Utils/Hooks/useMataKuliah";
 
-import Card from "@/pages/Admin/Components/Card";
-import Heading from "@/pages/Admin/Components/Heading";
-import Button from "@/pages/Admin/Components/Button";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
+import Button from "@/Pages/Admin/Components/Button";
 
-import MataKuliahTable from "@/pages/Admin/MataKuliah/MataKuliahTable";
-import MataKuliahModal from "@/pages/Admin/MataKuliah/MataKuliahModal";
+import MataKuliahTable from "@/Pages/Admin/MataKuliah/MataKuliahTable";
+import MataKuliahModal from "@/Pages/Admin/MataKuliah/MataKuliahModal";
 
 const MataKuliah = () => {
   const [selectedMataKuliah, setSelectedMataKuliah] =

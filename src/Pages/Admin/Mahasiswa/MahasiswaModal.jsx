@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Input from "@/pages/Auth/Components/Input";
-import Label from "@/pages/Auth/Components/Label";
-import Button from "@/pages/Auth/Components/Button";
+import Input from "@/Pages/Auth/Components/Input";
+import Label from "@/Pages/Auth/Components/Label";
+import Button from "@/Pages/Auth/Components/Button";
 
 const MahasiswaModal = ({
 isModalOpen,

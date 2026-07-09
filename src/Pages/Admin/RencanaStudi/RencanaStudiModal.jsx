@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import Button from "@/pages/Admin/Components/Button";
+import Button from "@/Pages/Admin/Components/Button";
 
 const RencanaStudiModal = ({
   isModalOpen,

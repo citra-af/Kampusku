@@ -14,12 +14,12 @@ import {
   useDeleteKelas,
 } from "@/Utils/Hooks/useKelas";
 
-import Card from "@/pages/Admin/Components/Card";
-import Heading from "@/pages/Admin/Components/Heading";
-import Button from "@/pages/Admin/Components/Button";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
+import Button from "@/Pages/Admin/Components/Button";
 
-import KelasTable from "@/pages/Admin/Kelas/KelasTable";
-import KelasModal from "@/pages/Admin/Kelas/KelasModal";
+import KelasTable from "@/Pages/Admin/Kelas/KelasTable";
+import KelasModal from "@/Pages/Admin/Kelas/KelasModal";
 
 const Kelas = () => {
   const [selectedKelas, setSelectedKelas] =

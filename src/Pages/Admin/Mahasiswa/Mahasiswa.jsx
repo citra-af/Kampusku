@@ -16,12 +16,12 @@ import {
   useDeleteMahasiswa,
 } from "@/Utils/Hooks/useMahasiswa";
 
-import Card from "@/pages/Admin/Components/Card";
-import Heading from "@/pages/Admin/Components/Heading";
-import Button from "@/pages/Admin/Components/Button";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
+import Button from "@/Pages/Admin/Components/Button";
 
-import MahasiswaTable from "@/pages/Admin/Mahasiswa/MahasiswaTable";
-import MahasiswaModal from "@/pages/Admin/Mahasiswa/MahasiswaModal";
+import MahasiswaTable from "@/Pages/Admin/Mahasiswa/MahasiswaTable";
+import MahasiswaModal from "@/Pages/Admin/Mahasiswa/MahasiswaModal";
 
 const Mahasiswa = () => {
   const navigate = useNavigate();

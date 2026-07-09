@@ -11,9 +11,9 @@ import { useMahasiswa } from "@/Utils/Hooks/useMahasiswa";
 import { useKelas } from "@/Utils/Hooks/useKelas";
 import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";
 
-import Card from "@/pages/Admin/Components/Card";
-import Heading from "@/pages/Admin/Components/Heading";
-import Button from "@/pages/Admin/Components/Button";
+import Card from "@/Pages/Admin/Components/Card";
+import Heading from "@/Pages/Admin/Components/Heading";
+import Button from "@/Pages/Admin/Components/Button";
 
 import {
   confirmDelete,
