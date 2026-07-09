@@ -20,7 +20,7 @@ import AdminLayout from "@/Pages/Admin/AdminLayout";
 import ProtectedRoute from "@/Pages/Admin/Components/ProtectedRoute";
 import PermissionRoute from "@/Pages/Admin/Components/PermissionRoute";
 
-import Login from "@/Pages/Auth/Login/Login";
+import Login from "@/Pages/Auth/Login/login";
 import Register from "@/Pages/Auth/Register/Register";
 
 import Dashboard from "@/Pages/Admin/Dashboard/Dashboard";
