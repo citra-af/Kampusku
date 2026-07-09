@@ -6,9 +6,9 @@ import Heading from "@/Pages/Admin/Components/Heading";
 
 import { getMahasiswa } from "@/Apis/MahasiswaApi";
 
-import axios from "@/Utils/AxiosInstance";
+import axios from "@/utils/AxiosInstance";
 
-import { toastError } from "@/Utils/Helpers/ToastHelpers";
+import { toastError } from "@/utils/Helpers/ToastHelpers";
 
 const MahasiswaDetail = () => {
   const { id } = useParams();

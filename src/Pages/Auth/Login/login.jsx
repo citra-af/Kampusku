@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { toastSuccess, toastError } from "@/Utils/Helpers/ToastHelpers";
+import { toastSuccess, toastError } from "@/utils/Helpers/ToastHelpers";
 
 import { useAuth } from "@/Context/AuthContext";
 

@@ -1,4 +1,4 @@
-import axios from "@/Utils/AxiosInstance";
+import axios from "@/utils/AxiosInstance";
 
 export const login = async (email, password) => {
   const res = await axios.get("/user", {

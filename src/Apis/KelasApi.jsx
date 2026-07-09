@@ -1,4 +1,4 @@
-import axios from "@/Utils/AxiosInstance";
+import axios from "@/utils/AxiosInstance";
 
 export const getAllKelas = (params = {}) =>
   axios.get("/kelas", {

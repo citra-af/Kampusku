@@ -9,7 +9,7 @@ import UserModal from "@/Pages/Admin/User/UserModal";
 import {
   useUser,
   useUpdateUser,
-} from "@/Utils/Hooks/useUser";
+} from "@/utils/Hooks/useUser";
 
 const User = () => {
   const [selectedUser, setSelectedUser] =

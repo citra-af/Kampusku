@@ -3,16 +3,16 @@ import { useState } from "react";
 import {
   confirmDelete,
   confirmUpdate,
-} from "@/Utils/Helpers/SwalHelpers";
+} from "@/utils/Helpers/SwalHelpers";
 
-import { toastError } from "@/Utils/Helpers/ToastHelpers";
+import { toastError } from "@/utils/Helpers/ToastHelpers";
 
 import {
   useDosen,
   useStoreDosen,
   useUpdateDosen,
   useDeleteDosen,
-} from "@/Utils/Hooks/useDosen";
+} from "@/utils/Hooks/useDosen";
 
 import Card from "@/Pages/Admin/Components/Card";
 import Heading from "@/Pages/Admin/Components/Heading";

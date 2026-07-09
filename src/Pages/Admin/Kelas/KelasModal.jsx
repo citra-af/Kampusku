@@ -4,8 +4,8 @@ import Input from "@/Pages/Auth/Components/Input";
 import Label from "@/Pages/Auth/Components/Label";
 import Button from "@/Pages/Auth/Components/Button";
 
-import { useDosen } from "@/Utils/Hooks/useDosen";
-import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";
+import { useDosen } from "@/utils/Hooks/useDosen";
+import { useMataKuliah } from "@/utils/Hooks/useMataKuliah";
 
 const KelasModal = ({
   isModalOpen,

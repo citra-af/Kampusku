@@ -1,4 +1,4 @@
-import axios from "@/Utils/AxiosInstance";
+import axios from "@/utils/AxiosInstance";
 
 export const getAllRencanaStudi = (params = {}) =>
   axios.get("/rencana_studi", {

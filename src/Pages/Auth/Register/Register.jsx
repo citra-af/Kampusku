@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import {
   toastSuccess,
   toastError,
-} from "@/Utils/Helpers/ToastHelpers";
+} from "@/utils/Helpers/ToastHelpers";
 
 import {
   getAllUsers,

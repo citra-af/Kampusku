@@ -17,11 +17,11 @@ import {
 
 import Card from "@/Pages/Admin/Components/Card";
 import Heading from "@/Pages/Admin/Components/Heading";
-import { useMahasiswa } from "@/Utils/Hooks/useMahasiswa";
-import { useDosen } from "@/Utils/Hooks/useDosen";
-import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";
-import { useKelas } from "@/Utils/Hooks/useKelas";
-import { useRencanaStudi } from "@/Utils/Hooks/useRencanaStudi";
+import { useMahasiswa } from "@/utils/Hooks/useMahasiswa";
+import { useDosen } from "@/utils/Hooks/useDosen";
+import { useMataKuliah } from "@/utils/Hooks/useMataKuliah";
+import { useKelas } from "@/utils/Hooks/useKelas";
+import { useRencanaStudi } from "@/utils/Hooks/useRencanaStudi";
 
 const CHART_COLORS = ["#2563eb", "#3b82f6", "#60a5fa", "#93c5fd", "#1d4ed8"];
 

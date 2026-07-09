@@ -1,5 +1,5 @@
 import Button from "@/Pages/Admin/Components/Button";
-import { confirmLogout } from "@/Utils/Helpers/SwalHelpers";
+import { confirmLogout } from "@/utils/Helpers/SwalHelpers";
 import { useAuth } from "@/Context/AuthContext";
 
 const Header = () => {

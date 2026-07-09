@@ -5,16 +5,16 @@ import { toast } from "react-hot-toast";
 import {
   confirmDelete,
   confirmUpdate,
-} from "@/Utils/Helpers/SwalHelpers";
+} from "@/utils/Helpers/SwalHelpers";
 
-import { toastError } from "@/Utils/Helpers/ToastHelpers";
+import { toastError } from "@/utils/Helpers/ToastHelpers";
 
 import {
   useMahasiswa,
   useStoreMahasiswa,
   useUpdateMahasiswa,
   useDeleteMahasiswa,
-} from "@/Utils/Hooks/useMahasiswa";
+} from "@/utils/Hooks/useMahasiswa";
 
 import Card from "@/Pages/Admin/Components/Card";
 import Heading from "@/Pages/Admin/Components/Heading";

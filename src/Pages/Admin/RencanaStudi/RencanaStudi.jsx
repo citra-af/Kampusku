@@ -5,11 +5,11 @@ import {
   useStoreRencanaStudi,
   useUpdateRencanaStudi,
   useDeleteRencanaStudi,
-} from "@/Utils/Hooks/useRencanaStudi";
+} from "@/utils/Hooks/useRencanaStudi";
 
-import { useMahasiswa } from "@/Utils/Hooks/useMahasiswa";
-import { useKelas } from "@/Utils/Hooks/useKelas";
-import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";
+import { useMahasiswa } from "@/utils/Hooks/useMahasiswa";
+import { useKelas } from "@/utils/Hooks/useKelas";
+import { useMataKuliah } from "@/utils/Hooks/useMataKuliah";
 
 import Card from "@/Pages/Admin/Components/Card";
 import Heading from "@/Pages/Admin/Components/Heading";
@@ -18,7 +18,7 @@ import Button from "@/Pages/Admin/Components/Button";
 import {
   confirmDelete,
   confirmUpdate,
-} from "@/Utils/Helpers/SwalHelpers";
+} from "@/utils/Helpers/SwalHelpers";
 
 import RencanaStudiTable from "./RencanaStudiTable";
 import RencanaStudiModal from "./RencanaStudiModal";

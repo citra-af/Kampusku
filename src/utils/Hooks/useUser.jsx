@@ -13,7 +13,7 @@ import {
 import {
   toastSuccess,
   toastError,
-} from "@/Utils/Helpers/ToastHelpers";
+} from "@/utils/Helpers/ToastHelpers";
 
 // =========================
 // GET
