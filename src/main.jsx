@@ -10,7 +10,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import { AuthProvider } from "@/Context/AuthContext";
 
-import "./App.css";
+import "./app.css";
 
 import { Toaster } from "react-hot-toast";
 
